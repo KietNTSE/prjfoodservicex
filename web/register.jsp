@@ -38,6 +38,7 @@
             <input type="hidden" name="action" value="register" />
             <input type="hidden" name="role" value="Customer" />
             Username: <input type="text" name="user_name" required> <br>
+            Email: <input type="text" name="email" required> <br>
             Password: <input type="password" name="password" required> <br>
             Full Name: <input type="text" name="fullName" required> <br>
             Phone: <input type="text" name="phone"> <br>

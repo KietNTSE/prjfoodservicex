@@ -12,17 +12,17 @@ public class UserDTO {
     private int user_ID;
     private String user_name;
     private String password;
-    private String role;
-    
+    private String role;    
     private String user_fullName;
     private String phone;
     private String address;
     private String gender;
+    private String email;
 
     public UserDTO() {
     }
 
-    public UserDTO(int user_ID, String user_name, String password, String role, String user_fullName, String phone, String address, String gender) {
+    public UserDTO(int user_ID, String user_name, String password, String role, String user_fullName, String phone, String address, String gender, String email) {
         this.user_ID = user_ID;
         this.user_name = user_name;
         this.password = password;
@@ -31,6 +31,7 @@ public class UserDTO {
         this.phone = phone;
         this.address = address;
         this.gender = gender;
+        this.email = email;
     }
 
     public int getUser_ID() {
@@ -96,4 +97,14 @@ public class UserDTO {
     public void setGender(String gender) {
         this.gender = gender;
     }   
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    
 }
